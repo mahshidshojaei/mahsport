@@ -24,7 +24,7 @@ const onSlideChange = (name) => {
 
 <template>
 
-  <div class="w-[1400px] mx-auto mt-10">
+  <div class="sm:w-[1450px] mx-auto mt-10 sm:overflow-hidden overflow-x-scroll">
     <nav class="w-[calc(100%-32px)] mx-auto mt-4 relative flex items-center">
       <button v-show="!swiperIsBeginning.tags" aria-label="Previous Slide" class="prev absolute -left-4 z-50 flex items-center justify-center w-[32px] h-[32px] bg-white rounded-full border-2 border-zinc-100 cursor-pointer">
         <i class="ki-filled ki-left text-[15px]"/>
@@ -40,101 +40,101 @@ const onSlideChange = (name) => {
           @swiper="onSwiperInit($event, 'tags')">
 
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide class="!w-fit">
-          <div class="group bg-[#f5f5f5] w-[250px] h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#f2cce2] p-4">
-            <div class="bg-white w-[220px] flex justify-center items-center rounded-xl">
-              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[190px] ">
+          <div class="group  bg-white w-[200px] h-[250px] sm:w-[250px] sm:h-[300px] rounded-[15px] flex flex-col justify-between items-center hover:bg-[#dbe7e4] p-4">
+            <div class="bg-white sm:w-[220px] flex justify-center items-center rounded-xl">
+              <img src="/src/assets/images/نیم-تنه-ورزشی-زنانه-نایک-مدل-Dri-Fit-LL1-طوسی-تیره-222.jpg" alt="" class="w-[150px] sm:w-[190px] ">
             </div>
             <div class="flex flex-col text-[15px]">
-              <span class="text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
-              <span class="w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
+              <span class="text-[10px] sm:text-[13px]">نیم تنه ورزشی زنانه نایک مدل Dri Fit-LL1 مشکی</span>
+              <span class="text-[11px] sm:text-[15px] w-full text-end">1,480,000 <span class="text-[12px]">تومان</span></span>
             </div>
           </div>
         </swiper-slide>

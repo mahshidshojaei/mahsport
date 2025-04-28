@@ -24,9 +24,9 @@ const onSlideChange = (name) => {
 
 <template>
 
-  <div class="sm:w-[1450px] mx-auto mt-10 sm:overflow-hidden overflow-x-scroll">
+  <div class="sm:w-[1420px] mx-auto mt-5 sm:overflow-hidden overflow-x-scroll">
     <nav class="w-[calc(100%-32px)] mx-auto mt-4 relative flex items-center">
-      <button v-show="!swiperIsBeginning.tags" aria-label="Previous Slide" class="prev absolute -left-4 z-50 flex items-center justify-center w-[32px] h-[32px] bg-white rounded-full border-2 border-zinc-100 cursor-pointer">
+      <button v-show="!swiperIsBeginning.tags" aria-label="Previous Slide" class="prev absolute -left-4 z-20 flex items-center justify-center w-[32px] h-[32px] bg-white rounded-full border-2 border-zinc-100 cursor-pointer">
         <i class="ki-filled ki-left text-[15px]"/>
       </button>
       <swiper
@@ -146,7 +146,7 @@ const onSlideChange = (name) => {
           <span class="absolute w-[60px] top-0 right-0 z-10 h-full bg-gradient-to-r from-transparent to-zinc-100 pointer-events-none"/>
         </template>
       </swiper>
-      <button v-show="!swiperIsEnd.tags" aria-label="Next Slide" class="next absolute -right-4 z-50 flex items-center justify-center w-[32px] h-[32px] bg-white rounded-full border-2 border-zinc-100 cursor-pointer">
+      <button v-show="!swiperIsEnd.tags" aria-label="Next Slide" class="next absolute -right-4 z-20 flex items-center justify-center w-[32px] h-[32px] bg-white rounded-full border-2 border-zinc-100 cursor-pointer">
         <i class="ki-filled ki-right text-[15px]"/>️
       </button>
     </nav>

@@ -12,6 +12,7 @@ export default {
           xl: "1400px",
         },
       },
+
     },
   },
   plugins: [],
